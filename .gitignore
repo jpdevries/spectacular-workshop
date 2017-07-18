@@ -1,0 +1,9 @@
+/node_modules
+/bower_components
+/lib
+
+.sass-cache
+
+src/scss/bourbon
+src/scss/neat
+src/scss/spec

@@ -1,0 +1,33 @@
+{
+  "name": "spectacular-workshop",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --watch ./ --watch ./views -e css,twig server.js",
+    "start": "npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-webpack": "^3.0.2",
+    "nodemon": "^1.11.0",
+    "pixrem": "^4.0.1",
+    "postcss-custom-properties": "^6.1.0",
+    "webpack": "^3.3.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
