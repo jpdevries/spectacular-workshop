@@ -113,6 +113,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['watch:scss']);
-  grunt.registerTask('buildcss',['sass','copy:bower','postcss','cssmin']);
+  grunt.registerTask('buildcss',['copy:bower','sass','postcss','cssmin']);
   grunt.registerTask('build',['buildcss']);
 };
